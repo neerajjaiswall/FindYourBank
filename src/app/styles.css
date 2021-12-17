@@ -1,0 +1,71 @@
+:root {
+  font-size: 14px;
+}
+
+.thead,
+tr {
+  background-color: honeydew;
+}
+
+.tr,
+th {
+  white-space: nowrap;
+  padding: 1rem;
+  text-align: left;
+  background-color: honeydew;
+}
+
+tbody,
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+.tbody,
+tr,
+td {
+  word-wrap: break-word;
+  max-width: 250px;
+  padding: 0.5rem;
+}
+
+input[type="text"] {
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 10px;
+
+  margin: 10px;
+  float: left;
+}
+
+.citySelect {
+  float: left;
+  padding: 12px 20px 12px 10px;
+  margin-top: 6px;
+}
+.stateSelect {
+  float: left;
+  padding: 12px 20px 12px 10px;
+  margin-top: 6px;
+  display: inline;
+}
+
+.mainDiv {
+  width: 100%;
+  overflow: hidden;
+}
+
+.dummy {
+  float: none;
+  display: block;
+}
+
+.data {
+  float: left;
+  display: block;
+}
